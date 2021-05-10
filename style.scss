@@ -1,0 +1,106 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+wrapper{
+    
+    .content{
+        background-color: hsl(244, 38%, 16%);
+        width: 1000px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        display: flex;
+        height: 442px;
+        border-radius: 10px;
+
+        .column-one{
+            display: inline-block;
+            padding-left: 25px;
+            height: 442px;
+
+            h2, h3{
+                font-size: 15px;
+                font-family: monospace;
+                color: hsl(0, 0%, 100%);
+            }
+
+            h2{
+                margin-left: 25px;
+                padding-top: 50px;
+                font-size: 30px;
+                width: 70%;
+
+                span{
+                    color: hsl(277, 64%, 61%);
+                }
+            }
+
+            .sub-title{
+                width: 70%;
+            }
+            .sub-title p{
+                color: hsla(0, 0%, 100%, 0.75);
+            }
+
+            .info{
+                display: flex;
+                padding-top: 30px;
+
+                span2{
+                    padding-left: 80px;
+                }
+
+                span3{
+                    padding-left: 80px;
+                }
+
+                h3{
+                    margin-left: 25px;
+                }
+            }
+
+            .info2{
+                display: flex;
+                margin-top: -20px;
+                color: hsla(0, 0%, 100%, 0.6);
+                font-size: 12px;
+            }
+            
+                span4{
+                    padding-left: 45px;
+                }
+
+                span5{
+                    padding-left: 36px;
+                }
+
+                p{
+                    margin-left: 25px;
+                }
+        }
+
+        .column-two{
+            width: 100%;
+            background: url(image-header-desktop.jpg);
+            background-repeat: no-repeat;
+            height: 442px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            .overlay{
+                background-color: hsl(277, 64%, 61%);;
+                height: 100%;
+                opacity: 0.6;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+
+    
+}
+
+
+
